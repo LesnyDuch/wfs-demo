@@ -1,0 +1,27 @@
+.Map {
+    height: 80%;
+}
+
+.ol-viewport {
+    box-shadow: 0 5px 10px  rgba(60, 60, 60, 0.4);
+}
+
+.ol-control {
+    background-color: rgba(175,174,173, 0.4)
+}
+
+.ol-control button {
+    color: rgba(116, 116, 116, 0.8);
+    background-color: rgba(255,255,255,0.7);
+}
+
+.ol-control button:hover {
+    background-color: #2bbbad;
+}
+
+.ol-attribution ul, .ol-attribution a {
+    color: rgba(0, 0, 0, 0.7)
+}
+.ol-unselectable {
+    z-index: -1 !important;
+}
